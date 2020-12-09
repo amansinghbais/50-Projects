@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: steelblue;
+}
+
+#container{
+    width: 28vw;
+    height: 65vh;
+    border-radius: 1rem;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 0.3rem white;
+    padding: 3rem;
+}
+
+#container h2{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.content{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    background: inherit;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1rem;
+    color: white;
+}
+
+.content label span{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    color: white;
+    transition: 0.2s;
+}
+
+.content label {
+    position: absolute;
+    top: 25px;
+}
+
+.btn{
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: paleturquoise;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn:hover{
+    background-color: rgb(149, 229, 229);
+    
+}
+
+.new{
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.new p{
+    color: white;
+}
+
+.new a{
+    text-decoration: none;
+    color: aqua;
+    margin-left: 0.3rem;
+}
+
+.new a:hover{
+    color: rgb(16, 195, 195);
+}
+
+.content input:focus{
+    border-bottom-color:skyblue;
+}
+
+.content input:focus + label span,
+.content input:valid + label span{
+    color: skyblue;
+    transform: translateY(-2rem);
+
+}

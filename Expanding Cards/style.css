@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#box{
+    display: flex;
+}
+
+.card{
+    width: 5vw;
+    /* flex: 0.5; */
+    cursor: pointer;
+    /* position: relative; */
+    transition: 1s ease;
+    position: relative;
+}
+
+
+#img1{
+    height: 80vh;
+    margin-right: 1rem;
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80') no-repeat center center/cover;
+    border-radius: 3rem;
+}
+
+#img2{
+    height: 80vh;
+    margin-right: 1rem;
+    background: url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+    border-radius: 3rem;
+}
+
+#img3{
+    height: 80vh;
+    margin-right: 1rem;
+    background: url('https://images.unsplash.com/photo-1606749128514-01add013f5c7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') no-repeat center center/cover;
+    border-radius: 3rem;
+}
+
+#img4{
+    height: 80vh;
+    margin-right: 1rem;
+    background: url('https://images.unsplash.com/photo-1606323309671-c51570922278?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80') no-repeat center center/cover;
+    border-radius: 3rem;
+}
+
+#img5{
+    height: 80vh;
+    margin-right: 1rem;
+    background: url('https://images.unsplash.com/photo-1575477690186-2c9d7e60dee2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80') no-repeat center center/cover;
+    border-radius: 3rem;
+}
+
+.active{
+    transition: 1s ease;
+    width: 70vw;
+    /* flex: 5s; */
+}
+
+h3{
+    visibility: hidden;
+    font-size: 36px;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(253, 9, 9);
+}
+
+.active h3{
+    transition: 1s ease;
+    visibility: visible;
+}

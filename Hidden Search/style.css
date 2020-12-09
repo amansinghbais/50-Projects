@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom , rgb(175, 40, 175), rgb(87, 31, 87));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#box{
+    background-color: white;
+    box-shadow: 0 0 1rem 0.1rem black;
+}
+
+.input{
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 1rem 0 1rem 0;
+    width: 0;
+    transition: 1s;
+}
+
+.btn{
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

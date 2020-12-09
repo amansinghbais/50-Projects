@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(158, 7, 158);
+}
+
+.btn{
+    padding: 1.5rem;
+    width: 9rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(82, 10, 82);
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.btn:hover{
+    background-color: rgb(27, 2, 27);
+}
